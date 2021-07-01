@@ -12,8 +12,10 @@ body
 {
     width: 150px;
     height: 200px;
-    background-color: khaki;
+    background-color: rgb(236, 232, 195);
     margin: 0 1rem;
+    box-shadow: 3px 3px 7px #000;
+    border-radius: 10px;
 }
 .icon p
 {

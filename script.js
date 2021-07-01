@@ -19,9 +19,9 @@ let app = new Vue(
             {
                 return  [
                     
-                    {bandeira:this.brazil, continente:'America do sul'},
-                    {bandeira:this.argentina, continente: 'America do sul'},
-                    {bandeira:this.china, continente:'Asía'}
+                    {bandeira:this.brazil, nome: '<strong>Brasil</strong>', continente:'America do sul'},
+                    {bandeira:this.argentina, nome: '<strong>Argentina</strong>', continente: 'America do sul'},
+                    {bandeira:this.china, nome:'<strong>China</strong>', continente:'Asía'}
                 ]
             }
         }
